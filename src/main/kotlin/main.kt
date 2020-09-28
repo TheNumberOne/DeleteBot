@@ -42,7 +42,7 @@ fun main() = runBlocking {
 @FlowPreview
 private suspend fun deleteAllMessages(
     guild: Guild,
-    userId: Snowflake?,
+    userId: Snowflake,
     before: Snowflake,
     admin: Member,
     responseChannel: MessageChannel
